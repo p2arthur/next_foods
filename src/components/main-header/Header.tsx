@@ -1,12 +1,12 @@
 'use client';
 
 import Link from 'next/link';
-import logoImg from '@/assets/logo.png';
 import classes from './main-header.module.css';
 import Image from 'next/image';
 import MainHeaderBackground from './MainHeaderBackground';
-import { useParams, usePathname } from 'next/navigation';
+import { usePathname } from 'next/navigation';
 import NavLink from './NavLink';
+import logoImg from '@/assets/logo.png';
 
 export default function MainHeader() {
   const path = usePathname();
